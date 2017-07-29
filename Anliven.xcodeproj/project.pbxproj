@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300023A2E72D751656FCE0F4 /* Pods_Anliven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F0B3F3F85241BF3A79138CC /* Pods_Anliven.framework */; };
+		4604B8741F2BAFAA0005073D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4604B8731F2BAFA20005073D /* AVFoundation.framework */; };
+		4604B8761F2BAFC40005073D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4604B8751F2BAFB90005073D /* CoreMedia.framework */; };
+		4604B8781F2BB0080005073D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4604B8771F2BB0000005073D /* AssetsLibrary.framework */; };
+		4604B87C1F2BBA630005073D /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4604B87B1F2BBA630005073D /* libc++.1.dylib */; };
+		46191D161F2BA1C7009910DE /* OpneCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46191D151F2BA1C7009910DE /* OpneCVWrapper.mm */; };
+		467F482A1F2CDA3B009A749E /* SpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F48291F2CDA3B009A749E /* SpeechViewController.swift */; };
+		4697658B1F2B8A59002188E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4697658A1F2B8A59002188E8 /* AppDelegate.swift */; };
+		4697658D1F2B8A59002188E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4697658C1F2B8A59002188E8 /* ViewController.swift */; };
+		469765901F2B8A59002188E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4697658E1F2B8A59002188E8 /* Main.storyboard */; };
+		469765931F2B8A59002188E8 /* Anliven.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 469765911F2B8A59002188E8 /* Anliven.xcdatamodeld */; };
+		469765951F2B8A59002188E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469765941F2B8A59002188E8 /* Assets.xcassets */; };
+		469765981F2B8A59002188E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469765961F2B8A59002188E8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FF552F2C0C7151B8B4FD3C2 /* Pods-Anliven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anliven.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Anliven/Pods-Anliven.debug.xcconfig"; sourceTree = "<group>"; };
+		4604B8731F2BAFA20005073D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4604B8751F2BAFB90005073D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4604B8771F2BB0000005073D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		4604B8791F2BB0510005073D /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = "../../../../../../Users/chirag/Library/Developer/Xcode/DerivedData/Anliven-etjbgpmwzwwefmfjwotfeefsmesj/Build/Products/Debug-iphoneos/OpenCV/opencv2.framework"; sourceTree = "<group>"; };
+		4604B87B1F2BBA630005073D /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		46191D101F2B9FAD009910DE /* Anliven-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Anliven-Bridging-Header.h"; sourceTree = "<group>"; };
+		46191D141F2BA1C7009910DE /* OpneCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpneCVWrapper.h; path = OpenCVWrapper/OpneCVWrapper.h; sourceTree = "<group>"; };
+		46191D151F2BA1C7009910DE /* OpneCVWrapper.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = OpneCVWrapper.mm; path = OpenCVWrapper/OpneCVWrapper.mm; sourceTree = "<group>"; };
+		467F48291F2CDA3B009A749E /* SpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechViewController.swift; sourceTree = "<group>"; };
+		469765871F2B8A59002188E8 /* Anliven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anliven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4697658A1F2B8A59002188E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4697658C1F2B8A59002188E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4697658F1F2B8A59002188E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		469765921F2B8A59002188E8 /* Anliven.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Anliven.xcdatamodel; sourceTree = "<group>"; };
+		469765941F2B8A59002188E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		469765971F2B8A59002188E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		469765991F2B8A59002188E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		978534BF48977693F13D6FFE /* Pods-Anliven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anliven.release.xcconfig"; path = "Pods/Target Support Files/Pods-Anliven/Pods-Anliven.release.xcconfig"; sourceTree = "<group>"; };
+		9F0B3F3F85241BF3A79138CC /* Pods_Anliven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anliven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		469765841F2B8A59002188E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4604B87C1F2BBA630005073D /* libc++.1.dylib in Frameworks */,
+				4604B8781F2BB0080005073D /* AssetsLibrary.framework in Frameworks */,
+				4604B8761F2BAFC40005073D /* CoreMedia.framework in Frameworks */,
+				4604B8741F2BAFAA0005073D /* AVFoundation.framework in Frameworks */,
+				300023A2E72D751656FCE0F4 /* Pods_Anliven.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A36AA94BB48FC6B8E6A61AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4604B87B1F2BBA630005073D /* libc++.1.dylib */,
+				4604B8791F2BB0510005073D /* opencv2.framework */,
+				4604B8771F2BB0000005073D /* AssetsLibrary.framework */,
+				4604B8751F2BAFB90005073D /* CoreMedia.framework */,
+				4604B8731F2BAFA20005073D /* AVFoundation.framework */,
+				9F0B3F3F85241BF3A79138CC /* Pods_Anliven.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4697657E1F2B8A58002188E8 = {
+			isa = PBXGroup;
+			children = (
+				469765891F2B8A59002188E8 /* Anliven */,
+				469765881F2B8A59002188E8 /* Products */,
+				BE336A3971C22169788FE0EF /* Pods */,
+				1A36AA94BB48FC6B8E6A61AB /* Frameworks */,
+				46191D101F2B9FAD009910DE /* Anliven-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		469765881F2B8A59002188E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				469765871F2B8A59002188E8 /* Anliven.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		469765891F2B8A59002188E8 /* Anliven */ = {
+			isa = PBXGroup;
+			children = (
+				4697658A1F2B8A59002188E8 /* AppDelegate.swift */,
+				4697658C1F2B8A59002188E8 /* ViewController.swift */,
+				467F48291F2CDA3B009A749E /* SpeechViewController.swift */,
+				4697658E1F2B8A59002188E8 /* Main.storyboard */,
+				469765941F2B8A59002188E8 /* Assets.xcassets */,
+				469765961F2B8A59002188E8 /* LaunchScreen.storyboard */,
+				469765991F2B8A59002188E8 /* Info.plist */,
+				469765911F2B8A59002188E8 /* Anliven.xcdatamodeld */,
+				46191D141F2BA1C7009910DE /* OpneCVWrapper.h */,
+				46191D151F2BA1C7009910DE /* OpneCVWrapper.mm */,
+			);
+			path = Anliven;
+			sourceTree = "<group>";
+		};
+		BE336A3971C22169788FE0EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FF552F2C0C7151B8B4FD3C2 /* Pods-Anliven.debug.xcconfig */,
+				978534BF48977693F13D6FFE /* Pods-Anliven.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		469765861F2B8A59002188E8 /* Anliven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4697659C1F2B8A59002188E8 /* Build configuration list for PBXNativeTarget "Anliven" */;
+			buildPhases = (
+				AE4CBDA343AD3F650E06F325 /* [CP] Check Pods Manifest.lock */,
+				469765831F2B8A59002188E8 /* Sources */,
+				469765841F2B8A59002188E8 /* Frameworks */,
+				469765851F2B8A59002188E8 /* Resources */,
+				17B0CA67843C9930C406298F /* [CP] Embed Pods Frameworks */,
+				71B80D33CE1FEEA4B83144E5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anliven;
+			productName = Anliven;
+			productReference = 469765871F2B8A59002188E8 /* Anliven.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4697657F1F2B8A58002188E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Chirag Desai";
+				TargetAttributes = {
+					469765861F2B8A59002188E8 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+					};
+				};
+			};
+			buildConfigurationList = 469765821F2B8A58002188E8 /* Build configuration list for PBXProject "Anliven" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4697657E1F2B8A58002188E8;
+			productRefGroup = 469765881F2B8A59002188E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				469765861F2B8A59002188E8 /* Anliven */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		469765851F2B8A59002188E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469765981F2B8A59002188E8 /* LaunchScreen.storyboard in Resources */,
+				469765951F2B8A59002188E8 /* Assets.xcassets in Resources */,
+				469765901F2B8A59002188E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17B0CA67843C9930C406298F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anliven/Pods-Anliven-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71B80D33CE1FEEA4B83144E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Anliven/Pods-Anliven-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE4CBDA343AD3F650E06F325 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		469765831F2B8A59002188E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4697658D1F2B8A59002188E8 /* ViewController.swift in Sources */,
+				467F482A1F2CDA3B009A749E /* SpeechViewController.swift in Sources */,
+				469765931F2B8A59002188E8 /* Anliven.xcdatamodeld in Sources */,
+				46191D161F2BA1C7009910DE /* OpneCVWrapper.mm in Sources */,
+				4697658B1F2B8A59002188E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4697658E1F2B8A59002188E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4697658F1F2B8A59002188E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		469765961F2B8A59002188E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469765971F2B8A59002188E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4697659A1F2B8A59002188E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4697659B1F2B8A59002188E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4697659D1F2B8A59002188E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FF552F2C0C7151B8B4FD3C2 /* Pods-Anliven.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = JA79VPTEAU;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = Anliven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = cr.Anliven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Anliven-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		4697659E1F2B8A59002188E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978534BF48977693F13D6FFE /* Pods-Anliven.release.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = JA79VPTEAU;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = Anliven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = cr.Anliven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Anliven-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		469765821F2B8A58002188E8 /* Build configuration list for PBXProject "Anliven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4697659A1F2B8A59002188E8 /* Debug */,
+				4697659B1F2B8A59002188E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4697659C1F2B8A59002188E8 /* Build configuration list for PBXNativeTarget "Anliven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4697659D1F2B8A59002188E8 /* Debug */,
+				4697659E1F2B8A59002188E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		469765911F2B8A59002188E8 /* Anliven.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				469765921F2B8A59002188E8 /* Anliven.xcdatamodel */,
+			);
+			currentVersion = 469765921F2B8A59002188E8 /* Anliven.xcdatamodel */;
+			path = Anliven.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4697657F1F2B8A58002188E8 /* Project object */;
+}
